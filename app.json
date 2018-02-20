@@ -1,0 +1,11 @@
+{
+  "name": "Command line todo list",
+  "description": "Command line todo list",
+  "keywords": [
+    "todo"
+  ],
+  "image": "heroku/go:1.9",
+  "mount_dir": "src/github.com/abhisheksp/todo-cli",
+  "website": "https://github.com/abhisheksp/todo-cli",
+  "repository": "https://github.com/abhisheksp/todo-cli"
+}
