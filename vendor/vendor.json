@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "gzYAE/UJ+G7yTqkdJAMActxDdxw=",
+			"path": "github.com/gorilla/mux",
+			"revision": "c0091a029979286890368b4c7b301261e448e242",
+			"revisionTime": "2018-01-20T07:58:19Z"
+		},
+		{
+			"checksumSHA1": "V1a5/Ra9HXKNuArt5WKUqu+Jxt8=",
+			"path": "github.com/lib/pq",
+			"revision": "88edab0803230a3898347e77b474f8c1820a1f20",
+			"revisionTime": "2018-02-01T18:47:07Z"
+		},
+		{
+			"checksumSHA1": "ATnwV0POluBNQEMjPdylodz0oK0=",
+			"path": "github.com/lib/pq/oid",
+			"revision": "88edab0803230a3898347e77b474f8c1820a1f20",
+			"revisionTime": "2018-02-01T18:47:07Z"
+		}
+	],
+	"rootPath": "github.com/abhisheksp/todo-cli"
+}
