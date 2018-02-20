@@ -19,6 +19,12 @@
 			"path": "github.com/lib/pq/oid",
 			"revision": "88edab0803230a3898347e77b474f8c1820a1f20",
 			"revisionTime": "2018-02-01T18:47:07Z"
+		},
+		{
+			"checksumSHA1": "XjtdASLzMdpWLpVbfjqiRMLFMis=",
+			"path": "github.com/pressly/goose",
+			"revision": "b0454a40a91539e75a3e7e98677456e9789dfb95",
+			"revisionTime": "2017-12-06T19:11:51Z"
 		}
 	],
 	"rootPath": "github.com/abhisheksp/todo-cli"
