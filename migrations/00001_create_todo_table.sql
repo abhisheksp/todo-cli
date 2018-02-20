@@ -1,6 +1,7 @@
 -- +goose Up
 CREATE TABLE todo(
-    id CHARACTER(10) PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
+    list CHARACTER(10),
     item TEXT
 );
 
