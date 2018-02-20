@@ -15,7 +15,7 @@ func CreateItem(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	list, item := params["list"], params["item"]
 
-	db, err := sql.Open("postgres", os.Getenv("DB_URL"))
+	db, err := sql.Open("postgres", os.Getenv("DATABASE_URL"))
 	if err != nil {
 		log.Fatalf("Error: The data source arguments are not valid: %v", err)
 	}
