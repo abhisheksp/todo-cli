@@ -14,10 +14,8 @@ import (
 func GetItems(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	list := params["list"]
-	host, user, password, database, ssl := os.Getenv("PHOST"), os.Getenv("PUSER"), os.Getenv("PPASSWORD"), os.Getenv("PDB"), os.Getenv("PSSL")
-	dataSource := fmt.Sprintf("host=%s user=%s password=%s dbname=%s sslmode=%s", host, user, password, database, ssl)
-	db, err := sql.Open("postgres", dataSource)
 
+	db, err := sql.Open("postgres", os.Getenv("DATABASE_URL"))
 	if err != nil {
 		log.Fatalf("Error: The data source arguments are not valid: %v", err)
 	}
